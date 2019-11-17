@@ -1,0 +1,35 @@
+body {
+    display: flex;
+    flex-direction: column;
+    width: 95%;
+}
+
+header {
+    text-align: center;
+}
+
+nav {
+
+    /* width: 100%; */
+    
+}
+
+ul {
+    display: flex;
+    justify-content: center;
+
+}
+.navSeparator{
+    list-style: none;
+    margin-left : -5px;
+}
+
+/* nav>ul>li {
+    list-style-image: url(sources/nounours-redim.jpg);
+    margin : 1em;
+ } */
+
+li.menu {
+    list-style-image: url(sources/nounours-redim.jpg);
+    margin : 1em;
+ }
